@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+hashids = "*"
+sqlalchemy = "*"
+dataset = "*"
+validate-email = "*"
+python-decouple = "*"
+requests = "*"
+stripe = "*"
+fire = "*"
+fastapi = {extras = ["all"], version = "*"}
+email-validator = "*"
+aiofiles = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
