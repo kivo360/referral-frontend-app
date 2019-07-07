@@ -18,7 +18,7 @@ from validate_email import validate_email
 
 from app.config import DB_URL, TESTDB, REWARDS
 from app.util import referral_hash, send_simple_message
-salt = str("a6ecdd933b3842bcb467fed4073cb852")
+salt = str("XXX")
 hashids = Hashids(salt=salt)
 
 db = dataset.connect(TESTDB, row_type=dict)
