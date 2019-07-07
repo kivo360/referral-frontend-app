@@ -17,7 +17,7 @@ salt = str("a6ecdd933b3842bcb467fed4073cb852")
 
 
 
-stripe.api_key = "sk_live_WxCFh6xG9z079NoOOy4Nufbp"
+stripe.api_key = "" #Your API-Key here
 
 
 
@@ -29,7 +29,7 @@ stripe.api_key = "sk_live_WxCFh6xG9z079NoOOy4Nufbp"
 def send_simple_message(email, subject, html_template):
     return requests.post(
         "https://api.mailgun.net/v3/funguana.com/messages",
-        auth=("api", "key-b42d805f39588a464b8db0daaeb0d380"),
+        auth=("api", "key-XXX"), #your API-Key here
         data={"from": "Funguana, Inc <kevin@funguana.com>",
               "to": [email],
               "subject": "{}".format(subject),
