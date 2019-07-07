@@ -13,7 +13,7 @@ import hashlib
 
 
 
-salt = str("a6ecdd933b3842bcb467fed4073cb852")
+salt = str("XXX")
 
 
 
@@ -28,9 +28,9 @@ stripe.api_key = "" #Your API-Key here
 
 def send_simple_message(email, subject, html_template):
     return requests.post(
-        "https://api.mailgun.net/v3/funguana.com/messages",
+        "https://api.mailgun.net/v3/XXX/messages",
         auth=("api", "key-XXX"), #your API-Key here
-        data={"from": "Funguana, Inc <kevin@funguana.com>",
+        data={"from": "Funguana, Inc <genericemail@gmail.com>",
               "to": [email],
               "subject": "{}".format(subject),
               "html": "<html>{}</html>".format(html_template)
