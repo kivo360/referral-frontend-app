@@ -19,3 +19,6 @@ docker run -it -p 80:80 referral_frontend
 ```
 
 This will let you test the UI server.
+
+
+Test example: http://referral.funguaservices.com/#/user/register
