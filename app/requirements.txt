@@ -19,7 +19,7 @@ hashids==1.2.0
 httptools==0.0.13 ; sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'
 idna==2.8
 itsdangerous==1.1.0 ; extra == 'all'
-jinja2==2.10.1 ; extra == 'all'
+jinja2==2.11.3 ; extra == 'all'
 mako==1.0.12
 markupsafe==1.1.1
 promise==2.2.1
