@@ -1,43 +1,43 @@
--i https://pypi.org/simple
-aiofiles==0.4.0 ; extra == 'all'
-alembic==1.0.11
-aniso8601==6.0.0
-certifi==2019.6.16
+-i https://pypi.org/simple/
+aiofiles==0.4.0
+alembic==1.5.8
+aniso8601==7.0.0
+certifi==2020.12.5
 chardet==3.0.4
-click==7.0
-dataclasses==0.6 ; python_version < '3.7'
+click==7.1.2
+dataclasses==0.8 ; python_version < '3.7'
 dataset==1.1.2
-dnspython==1.16.0
+dnspython==2.1.0
 email-validator==1.0.4
 fastapi[all]==0.31.0
 fire==0.1.3
-graphene==2.1.6 ; extra == 'all'
-graphql-core==2.2
-graphql-relay==0.4.5
+graphene==2.1.8
+graphql-core==2.3.2
+graphql-relay==2.0.1
 h11==0.8.1
 hashids==1.2.0
-httptools==0.0.13 ; sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'
+httptools==0.0.13
 idna==2.8
-itsdangerous==1.1.0 ; extra == 'all'
-jinja2==2.10.1 ; extra == 'all'
-mako==1.0.12
+itsdangerous==1.1.0
+jinja2==2.11.3
+mako==1.1.4
 markupsafe==1.1.1
-promise==2.2.1
+promise==2.3
 pydantic==0.29
-python-dateutil==2.8.0
+python-dateutil==2.8.1
 python-decouple==3.1
 python-editor==1.0.4
-python-multipart==0.0.5 ; extra == 'all'
-pyyaml==5.1.1 ; extra == 'all'
+python-multipart==0.0.5
+pyyaml==5.4
 requests==2.22.0
 rx==1.6.1
-six==1.12.0
+six==1.15.0
 sqlalchemy==1.3.5
 starlette==0.12.0
 stripe==2.32.0
-ujson==1.35 ; extra == 'all'
-urllib3==1.25.3
+ujson==4.0.2
+urllib3==1.25.11
 uvicorn==0.8.3
-uvloop==0.12.2 ; sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'
+uvloop==0.12.2
 validate-email==1.3
 websockets==7.0
