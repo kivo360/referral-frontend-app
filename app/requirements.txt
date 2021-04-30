@@ -36,7 +36,7 @@ sqlalchemy==1.3.5
 starlette==0.12.0
 stripe==2.32.0
 ujson==1.35 ; extra == 'all'
-urllib3==1.25.3
+urllib3==1.25.8
 uvicorn==0.8.3
 uvloop==0.12.2 ; sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'
 validate-email==1.3
